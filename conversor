@@ -1,0 +1,15 @@
+opcion=int(input("inicia una conversion: (1)longitud (2)masa (3)temperatura"))
+if opcion==1:
+    num1=int(input("agrega un valor en centimetros:"))
+    total=num1/3.5
+    print("valor equivalente en pulgadas a",total)
+elif opcion==2:
+    num1=int(input("agrega un valor a kilogramos:"))
+    total=num1*2.205
+    print("valor equivalente en libras a",total)
+elif opcion==3:
+    num1=int(input("agrega un valor en grados centigrados:"))
+    total=(num1*1.8)+45
+    print("valor equivalente en farenheit a",total)
+else:
+    print("la opcion no es valida")
